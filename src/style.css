@@ -1,0 +1,88 @@
+body {
+	background-color: #d5d5f7;
+
+	/* i want that 'all the page is catered to' code !!!! */
+	margin: 0%;
+}
+/*
+- it was skyblue
+- background-color: #d5d5f7;
+- background: radial-gradient(#FF0000, #0000FF);
+- background: radial-gradient(top, #FF0000, #0000FF); = X works = ???
+- background: radial-gradient(20px 20px, #FF0000, #0000FF);
+- background: radial-gradient(800px 800px, #FF0000, #0000FF, #00FF00);
+*/
+
+/*
+h1 {
+	text-align: center;
+	font-family: Calibri;
+	font-size: 40px;
+}
+*/
+
+/* this was "#h1main {" */
+h1 {
+	text-align: center;
+	font-family: Calibri;
+	font-size: 40px;
+	font-weight: normal;
+	background-color: #777FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-top: 0px;
+}
+/*
+- 01234567 89ABCDEF
+- 0 is black
+- F is white
+- 
+*/
+
+p {
+	font-family: Calibri;
+	font-size: 20px;
+	margin-left: 10px;
+}
+/*
+margin-left: 10px;	= had to get rid of this = to make acronyms pg a-z links go to center
+*/
+
+h2 {
+	font-family: Calibri;
+	font-size: 25px;
+	margin-left: 10px;
+	font-weight: normal;
+}
+
+#acron {
+	font-family: Calibri;
+	font-size: 19px;
+	font-weight: 500;
+	margin-left: 5px;
+}
+/*
+// still messin with :
+RR GG BB ... #F0 AE 74
+
+text-align: center;
+font-weight: bold;
+line-height: 20px;
+
+// done with :
+text-align: center; T ... / X align-items: center; or align-content: center;
+*/
+
+.A-Z {
+	
+	font-size: 27px;
+	text-align: center;
+}
+/* can't get center to work on this 1 ... / = it was cos all a-z AND div had "class="A-Z"" ... = now just div has it = it works T :
+- align-items: center;
+*/
+
