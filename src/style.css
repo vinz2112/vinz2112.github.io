@@ -85,4 +85,3 @@ text-align: center; T ... / X align-items: center; or align-content: center;
 /* can't get center to work on this 1 ... / = it was cos all a-z AND div had "class="A-Z"" ... = now just div has it = it works T :
 - align-items: center;
 */
-
